@@ -4,7 +4,7 @@
   "description": "Portfolio Website",
   "main": "index.js",
   "scripts": {
-    "test": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/matt-unisin/portfolio/issues"
   },
-  "homepage": "https://github.com/matt-unisin/portfolio#readme"
+  "homepage": "https://github.com/matt-unisin/portfolio#readme",
+  "dependencies": {
+    "node-sass": "^4.9.2"
+  }
 }
