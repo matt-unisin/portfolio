@@ -1,14 +1,23 @@
 {
-  "name": "modern_portfolio",
+  "name": "portfolio",
   "version": "1.0.0",
-  "description": "Portfolio Website",
+  "description": "Protfolio Website",
   "main": "index.js",
+  "dependencies": {
+    "node-sass": "^4.9.2"
+  },
+  "devDependencies": {},
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matt-unisin/portfolio.git"
+  },
   "author": "Matt Fitch",
   "license": "MIT",
-  "dependencies": {
-    "node-sass": "^4.9.2"
-  }
+  "bugs": {
+    "url": "https://github.com/matt-unisin/portfolio/issues"
+  },
+  "homepage": "https://github.com/matt-unisin/portfolio#readme"
 }
